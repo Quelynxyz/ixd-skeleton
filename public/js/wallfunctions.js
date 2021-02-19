@@ -18,9 +18,11 @@
 //    $(this).css("background-color", "#7fff00");
 //}
 
-funtion addNotes(){
+function addNotes(){
     //var test = "stickynote";
-    var test = $("<i></i>").text("StickyNote"); 
-    $("adding").after(test);
+    console.log("StickyNote!")
+    //var test = $("<p></p>").text("StickyNote"); 
+    //$("body").append(test);
+     $("body ul").append("<li><a href='#' contenteditable='true'><h2>New Note</h2><p>type something...</p></a></li>");
 }
 

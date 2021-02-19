@@ -113,7 +113,7 @@ color: #000000;
 	height: 144px;
 	left: 32px;
 	top: 245px;
-	background-color: C4C4C4;
+	background-color: #C4C4C4;
 }
 
 .icon-addwall{
@@ -142,6 +142,39 @@ color: #000000;
 	height: 44px;
 	left: 316px;
 	top: 110px;	
-	background-color: C4C4C4;
+	background-color: #C4C4C4;
 	border: 1px solid #000000;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.container li{
+  list-style:none;
+}
+
+.container li a{
+  width:144px;
+  height:144px;
+  padding: 12px;
+  color:#000000;
+  background:#c4c4c4;
+  display:block;
+  text-decoration:none;
+}
+
+ul li{
+  margin:24px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: left;
+}
+   
+p {
+  font-size: 16px;
+  text-align: left;
 }
